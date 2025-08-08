@@ -1,4 +1,4 @@
-name: Continuous Persistent VPS
+```name: Continuous Persistent VPS
  
 on:
   schedule:
@@ -89,14 +89,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: vps-backup
-          path: backup.zip
- 
- 
-TAILSCALE_AUTHKEY
-
-tskey-auth-kQwEvysk7f11CNTRL-StoMAB31RxNzhG8wtN1YxNSYQhMpcy1Xi 
- 
-https://github.com/How2MCoffc/Get-SSL-at-localhost
- 
- 
-https://pterodactyl.io/
+          path: backup.zip```
